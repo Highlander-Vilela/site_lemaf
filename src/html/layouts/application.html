@@ -1,12 +1,19 @@
 {% from 'macros/helpers.html' import sprite %}
 <!doctype html>
-<html>
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="O LEMAF (Laboratório de Estudo e Pesquisa em Manejo Florestal) tem como foco desenver...">
+    <meta name="keywords" content="Software,Web,Mapa,Ambiental,Geoprocessamento,Gestão ">
+    <meta name="author" content="LEMAF">
+
     <title>{% block title %}{{ title }}{% endblock %}</title>
+
     <link rel="stylesheet" href="stylesheets/app.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     {% include "shared/app-icons.html" %}
+
     {% block head %}{% endblock %}
   </head>
   <body>
