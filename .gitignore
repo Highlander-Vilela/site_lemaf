@@ -4,6 +4,6 @@
 .publish
 public/
 Desktop.ini
-node_modules
+node_modules/
 **/generated/_icons.sass
 npm-debug.log
