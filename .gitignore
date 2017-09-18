@@ -2,7 +2,7 @@
 .DS_Store
 .sass-cache
 .publish
-public
+public/
 Desktop.ini
 node_modules
 **/generated/_icons.sass
