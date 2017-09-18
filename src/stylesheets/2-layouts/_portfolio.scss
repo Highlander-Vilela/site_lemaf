@@ -44,6 +44,7 @@
   &:focus {
     outline: none;
   }
+
   @media (min-width: 768px) {
     .portfolio-box-caption {
       .portfolio-box-caption-content {
@@ -56,4 +57,9 @@
       }
     }
   }
+}
+
+.blog h2::selection,
+.blog p::selection{
+  background-color: $theme-primary;
 }
