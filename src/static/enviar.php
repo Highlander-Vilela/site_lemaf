@@ -25,6 +25,8 @@ if(!mail($emaildestinatario, $assunto, $mensagemHTML, $headers ,"-r".$emailsende
   $headers .= "Return-Path: " . $emailsender . $quebra_linha;
   mail($emaildestinatario, $assunto, $mensagemHTML, $headers );
 }
-
 /* Fim do envio de email*/
+
+header("Location:index.html#contato");
+
 ?>
