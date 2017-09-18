@@ -17,13 +17,20 @@
 }
 
 .btn {
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
-  border: none;
-  border-radius: 300px;
+  border: 1px solid transparent;;
+  border-radius: 2px;
   @include sans-serif-font;
 }
 
+.btn:hover{
+  color: $theme-primary;
+  border: 1px solid $theme-primary;
+  background-color: transparent;
+}
+
 .btn-xl {
-  padding: 15px 30px;
+  margin-top: 20px;
+  padding: 10px 50px;
 }
