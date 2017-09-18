@@ -1,6 +1,6 @@
 <?php
 /* email que dispara a mensagem */
-$emailsender='nossoEmail@email.com';
+$emailsender='secretaria@lemaf.ufla.br';
 
 /* Verifica qual é o sistema operacional do servidor para ajustar o cabeçalho de forma correta.  */
 if(PATH_SEPARATOR == ";") $quebra_linha = "\r\n"; //Se for Windows
@@ -10,7 +10,7 @@ else $quebra_linha = "\n"; //Se "não for Windows"
 $nomeremetente     = $_POST['nome'];
 $emailremetente    = $_POST['email'];
 $assunto           = $_POST['assunto'];
-$emaildestinatario = 'nossoEmail@email.com';
+$emaildestinatario = 'secretaria@lemaf.ufla.br';
 $mensagemHTML      = 'De: '.$nomeremetente.'<br/> E-mail: '.$emailremetente.'<br/><br/> Mensagem: '.$_POST['mensagem'];
 
 /* Montando o cabeçalho da mensagem */
