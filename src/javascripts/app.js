@@ -130,7 +130,7 @@ import './modules'
             $(element).addClass('has-error');
         },
         unhighlight: function(element) {
-            $(element).closest('.form-group').removeClass('has-error');
+            $(element).removeClass('has-error');
         },
         errorElement: 'span',
         errorClass: 'help-block',

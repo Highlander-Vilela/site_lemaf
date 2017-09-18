@@ -48,12 +48,16 @@ input[type=submit]:hover {
 .help-block {
     color: $danger;
     font-size: 11px;
+    margin: -15px 0 20px 0
 }
 
 input.has-error,
 textarea.has-error {
     border-color: $danger;
+    color: $danger
 }
+
+
 @media (max-width: 990px) {
     .formulario {
         border-right: none;

@@ -9,3 +9,13 @@
  .dados p:nth-child(2), p:nth-child(1){
    margin: 0px 0px 5px 0px;
 }
+
+.formulario{
+  margin-bottom: 40px
+}
+
+@media (max-width:990px){
+  .dados{
+    padding-left: 15px
+  }
+}
