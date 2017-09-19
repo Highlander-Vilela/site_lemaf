@@ -23,8 +23,11 @@ module.exports = {
     }
   },
 
+  html: {
+      htmlmin: false
+    },
+
   production: {
     rev: true
   }
 }
-
