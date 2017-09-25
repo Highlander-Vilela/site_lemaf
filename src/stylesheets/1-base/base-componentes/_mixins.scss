@@ -4,23 +4,27 @@
   color: $color;
   border-color: $border;
   background-color: $background;
+
   &.focus,
   &:focus {
     color: $color;
     border-color: darken($border, 25%);
     background-color: darken($background, 10%);
   }
+
   &:hover {
     color: $color;
     border-color: darken($border, 12%);
     background-color: darken($background, 10%);
   }
+
   &.active,
   &:active,
   .open > &.dropdown-toggle {
     color: $color;
     border-color: darken($border, 12%);
     background-color: darken($background, 10%);
+
     &.focus,
     &:focus,
     &:hover {
@@ -29,11 +33,13 @@
       background-color: darken($background, 17%);
     }
   }
+
   &.active,
   &:active,
   .open > &.dropdown-toggle {
     background-image: none;
   }
+
   &.disabled,
   &[disabled],
   fieldset[disabled] & {
@@ -44,6 +50,7 @@
       background-color: $background;
     }
   }
+
   .badge {
     color: $background;
     background-color: $color;
@@ -62,7 +69,9 @@
 }
 @mixin serif-font() {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  text-rendering: optimizeLegibility;
 }
 @mixin sans-serif-font() {
   font-family: 'Montserrat', Arial, sans-serif;
+  text-rendering: optimizeLegibility;
 }

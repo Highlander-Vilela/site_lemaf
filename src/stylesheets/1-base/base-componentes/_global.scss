@@ -7,7 +7,10 @@ html {
 
 body {
   @include sans-serif-font;
+  text-rendering: optimizeLegibility;
 }
+
+
 
 hr {
   max-width: 50px;
@@ -81,4 +84,9 @@ img::selection {
 img::-moz-selection {
   color: white;
   background: transparent;
+}
+
+input:focus,
+textarea:focus {
+  outline-color: $theme-primary;
 }

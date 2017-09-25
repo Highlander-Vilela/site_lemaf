@@ -25,7 +25,9 @@
     color: $gray-darker;
   }
   .navbar-nav {
+    margin-top: 20px;
     > li.nav-item {
+      padding: 10px 0;
        > a.nav-link:focus,
       > a.nav-link {
         margin-left: 20px;
@@ -47,6 +49,14 @@
     }
   }
   @media (min-width: 992px) {
+
+    .navbar-nav {
+      margin-top: 0px;
+      > li.nav-item {
+        padding:0;
+      }
+    }
+
     border-color: fade-out(white, .7);
     background-color: transparent;
     .navbar-brand {
