@@ -4,27 +4,39 @@
   color: $color;
   border-color: $border;
   background-color: $background;
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 0f6debe... homolog
   &.focus,
   &:focus {
     color: $color;
     border-color: darken($border, 25%);
     background-color: darken($background, 10%);
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 0f6debe... homolog
   &:hover {
     color: $color;
     border-color: darken($border, 12%);
     background-color: darken($background, 10%);
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 0f6debe... homolog
   &.active,
   &:active,
   .open > &.dropdown-toggle {
     color: $color;
     border-color: darken($border, 12%);
     background-color: darken($background, 10%);
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 0f6debe... homolog
     &.focus,
     &:focus,
     &:hover {
@@ -33,13 +45,19 @@
       background-color: darken($background, 17%);
     }
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 0f6debe... homolog
   &.active,
   &:active,
   .open > &.dropdown-toggle {
     background-image: none;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 0f6debe... homolog
   &.disabled,
   &[disabled],
   fieldset[disabled] & {
@@ -50,7 +68,10 @@
       background-color: $background;
     }
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 0f6debe... homolog
   .badge {
     color: $background;
     background-color: $color;
@@ -69,9 +90,15 @@
 }
 @mixin serif-font() {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+<<<<<<< HEAD
   text-rendering: optimizeLegibility;
 }
 @mixin sans-serif-font() {
   font-family: 'Montserrat', Arial, sans-serif;
   text-rendering: optimizeLegibility;
+=======
+}
+@mixin sans-serif-font() {
+  font-family: 'Montserrat', Arial, sans-serif;
+>>>>>>> parent of 0f6debe... homolog
 }

@@ -7,11 +7,16 @@ html {
 
 body {
   @include sans-serif-font;
+<<<<<<< HEAD
   text-rendering: optimizeLegibility;
 }
 
 
 
+=======
+}
+
+>>>>>>> parent of 0f6debe... homolog
 hr {
   max-width: 50px;
   border-width: 3px;
@@ -85,8 +90,11 @@ img::-moz-selection {
   color: white;
   background: transparent;
 }
+<<<<<<< HEAD
 
 input:focus,
 textarea:focus {
   outline-color: $theme-primary;
 }
+=======
+>>>>>>> parent of 0f6debe... homolog
