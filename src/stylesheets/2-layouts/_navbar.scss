@@ -25,13 +25,9 @@
     color: $gray-darker;
   }
   .navbar-nav {
-<<<<<<< HEAD
     margin-top: 20px;
     > li.nav-item {
       padding: 10px 0;
-=======
-    > li.nav-item {
->>>>>>> parent of 0f6debe... homolog
        > a.nav-link:focus,
       > a.nav-link {
         margin-left: 20px;
@@ -53,7 +49,6 @@
     }
   }
   @media (min-width: 992px) {
-<<<<<<< HEAD
 
     .navbar-nav {
       margin-top: 0px;
@@ -62,8 +57,6 @@
       }
     }
 
-=======
->>>>>>> parent of 0f6debe... homolog
     border-color: fade-out(white, .7);
     background-color: transparent;
     .navbar-brand {
