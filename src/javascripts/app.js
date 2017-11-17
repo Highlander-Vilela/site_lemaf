@@ -86,7 +86,19 @@ import './modules'
     center: true,
     autoplay: true,
     autoWidth: true,
-    autoplayTimeout: 2000
+    autoplayTimeout: 2000,
+    nav: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
   });
 
   $("#formulario_contato").validate({
